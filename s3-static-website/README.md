@@ -16,17 +16,15 @@ This project demonstrates practical cloud concepts including object storage, S3 
 
 ##  Live Website
 
-**Deployment Platform:** Amazon S3 Static Website Hosting
+**Deployment Platform:**      Amazon S3 Static Website Hosting
 
-**AWS Region:** Europe (Stockholm) – `eu-north-1`
+**AWS Region:**               Europe (Stockholm) – `eu-north-1`
 
-**S3 Bucket:** `the-cozy-chapter-library-2026`
+**S3 Bucket:**                `the-cozy-chapter-library-2026`
 
-**Website Endpoint:**
+**Website Endpoint:**         `http://the-cozy-chapter-library-2026.s3-website.eu-north-1.amazonaws.com/`
 
-[Visit The Cozy Chapter](http://the-cozy-chapter-library-2026.s3-website.eu-north-1.amazonaws.com/)
-
-**Note:** The S3 website endpoint uses HTTP. HTTPS is not configured directly on the S3 website endpoint.
+Note: The S3 website endpoint uses HTTP. HTTPS is not configured directly on the S3 website endpoint.
 
 ---
 
