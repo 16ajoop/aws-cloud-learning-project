@@ -1,0 +1,1389 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Cozy Chapter | Bookstore</title>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+
+<style>
+
+:root {
+
+  --cream: #fffaf0;
+
+  --pink: #f6d6d8;
+
+  --rose: #d9858c;
+
+  --green: #647b60;
+
+  --dark: #39372f;
+
+  --yellow: #f5d78e;
+
+  --paper: #fffdf7;
+
+}
+
+
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+body {
+
+  background: var(--cream);
+
+  color: var(--dark);
+
+  font-family: 'DM Sans', sans-serif;
+
+  overflow-x: hidden;
+
+}
+
+
+
+a {
+
+  text-decoration: none;
+
+  color: inherit;
+
+}
+
+
+
+button {
+
+  font-family: inherit;
+
+  cursor: pointer;
+
+  border: none;
+
+}
+
+
+
+/* NAVIGATION */
+
+
+
+nav {
+
+  padding: 22px 7%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  border-bottom: 1px dashed #d9cfc0;
+
+  background: var(--cream);
+
+}
+
+
+
+.logo {
+
+  font-family: 'Playfair Display', serif;
+
+  font-size: 27px;
+
+  font-weight: 700;
+
+}
+
+
+
+.logo span {
+
+  color: var(--rose);
+
+}
+
+
+
+.nav-links {
+
+  display: flex;
+
+  gap: 32px;
+
+  font-size: 14px;
+
+}
+
+
+
+.nav-links &#x61;:hover {
+
+  color: var(--rose);
+
+}
+
+
+
+.cart {
+
+  background: var(--green);
+
+  color: white;
+
+  border-radius: 30px;
+
+  padding: 11px 20px;
+
+  font-weight: 600;
+
+}
+
+
+
+/* HERO */
+
+
+
+.hero {
+
+  padding: 85px 8% 95px;
+
+  min-height: 570px;
+
+  display: grid;
+
+  grid-template-columns: 1.1fr 0.9fr;
+
+  align-items: center;
+
+  gap: 35px;
+
+  position: relative;
+
+}
+
+
+
+.tag {
+
+  display: inline-block;
+
+  background: var(--pink);
+
+  color: #795258;
+
+  padding: 8px 17px;
+
+  border-radius: 30px;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 25px;
+
+}
+
+
+
+.hero h1 {
+
+  font-family: 'Playfair Display', serif;
+
+  font-size: clamp(45px, 6vw, 76px);
+
+  line-height: 1.12;
+
+  max-width: 650px;
+
+}
+
+
+
+.hero h1 em {
+
+  color: var(--rose);
+
+  font-weight: 500;
+
+}
+
+
+
+.hero p {
+
+  margin-top: 22px;
+
+  color: #777064;
+
+  max-width: 430px;
+
+  line-height: 1.8;
+
+  font-size: 15px;
+
+}
+
+
+
+.primary-btn {
+
+  display: inline-block;
+
+  margin-top: 28px;
+
+  padding: 15px 27px;
+
+  background: var(--green);
+
+  color: white;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+
+}
+
+
+
+.primary-btn:hover {
+
+  background: #455b42;
+
+  transform: translateY(-3px);
+
+}
+
+
+
+.hero-art {
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+
+
+.hero-art img {
+
+  width: 100%;
+
+  max-width: 420px;
+
+  height: 390px;
+
+  object-fit: cover;
+
+  border-radius: 48% 48% 8px 8px;
+
+  border: 8px solid white;
+
+  box-shadow: 12px 15px 0 var(--pink);
+
+}
+
+
+
+.doodle {
+
+  position: absolute;
+
+  font-size: 35px;
+
+  color: var(--rose);
+
+  font-family: 'Caveat', cursive;
+
+}
+
+
+
+.doodle-one {
+
+  top: 0;
+
+  right: 5%;
+
+  transform: rotate(15deg);
+
+}
+
+
+
+.doodle-two {
+
+  bottom: 5%;
+
+  left: -5%;
+
+  transform: rotate(-15deg);
+
+}
+
+
+
+.doodle-three {
+
+  top: 20%;
+
+  left: -8%;
+
+}
+
+
+
+/* DIVIDER */
+
+
+
+.marquee {
+
+  background: var(--green);
+
+  color: white;
+
+  padding: 17px 0;
+
+  text-align: center;
+
+  font-family: 'Caveat', cursive;
+
+  font-size: 24px;
+
+  letter-spacing: 2px;
+
+  word-spacing: 15px;
+
+}
+
+
+
+/* SECTION */
+
+
+
+.section {
+
+  padding: 85px 8%;
+
+}
+
+
+
+.section-heading {
+
+  text-align: center;
+
+  margin-bottom: 42px;
+
+}
+
+
+
+.section-heading small {
+
+  color: var(--rose);
+
+  font-family: 'Caveat', cursive;
+
+  font-size: 23px;
+
+}
+
+
+
+.section-heading h2 {
+
+  font-family: 'Playfair Display', serif;
+
+  font-size: 43px;
+
+  margin-top: 5px;
+
+}
+
+
+
+.section-heading p {
+
+  color: #888174;
+
+  margin-top: 12px;
+
+  font-size: 14px;
+
+}
+
+
+
+/* CATEGORIES */
+
+
+
+.categories {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 13px;
+
+  margin-bottom: 40px;
+
+}
+
+
+
+.category {
+
+  padding: 10px 22px;
+
+  background: white;
+
+  border: 1px solid #e9dfd0;
+
+  border-radius: 30px;
+
+  color: #615b50;
+
+  transition: 0.2s;
+
+}
+
+
+
+.category:hover,
+
+.category.active {
+
+  background: var(--pink);
+
+  border-color: var(--pink);
+
+  color: #754c52;
+
+}
+
+
+
+/* BOOK GRID */
+
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 25px;
+}
+
+@media (max-width: 768px) {
+    .books {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .books {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.book-card {
+
+  background: var(--paper);
+
+  border: 1px solid #eee5d9;
+
+  padding: 14px;
+
+  border-radius: 12px;
+
+  transition: 0.3s;
+
+  position: relative;
+
+}
+
+
+
+.book-card:hover {
+
+  transform: translateY(-7px) rotate(-1deg);
+
+  box-shadow: 0 12px 25px #6d594315;
+
+}
+
+
+
+.book-cover {
+
+  height: 235px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 7px;
+
+  overflow: hidden;
+
+  position: relative;
+
+}
+
+
+
+.book-cover img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+.book-placeholder {
+  width: 100%;
+  height: 100%;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+  background: #f5eee2;
+  color: var(--dark);
+  border: 1px solid #e9dfd0;
+}
+
+.book-placeholder span {
+  color: var(--rose);
+  font-size: 32px;
+}
+
+.book-placeholder p {
+  font-family: 'Playfair Display', serif;
+  font-size: 19px;
+  line-height: 1.35;
+}
+
+.genre {
+  margin-top: 7px;
+  color: var(--green);
+  font-size: 11px;
+  letter-spacing: 0.3px;
+}
+
+
+
+.book-info {
+
+  padding: 17px 4px 5px;
+
+}
+
+
+
+.book-info h3 {
+
+  font-family: 'Playfair Display', serif;
+
+  font-size: 19px;
+
+}
+
+
+
+.author {
+
+  font-size: 12px;
+
+  color: #898174;
+
+  margin-top: 6px;
+
+}
+
+
+
+.book-bottom {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-top: 17px;
+
+}
+
+
+
+.price {
+
+  font-weight: 700;
+
+  color: var(--green);
+
+}
+
+
+
+.add-btn {
+
+  padding: 9px 13px;
+
+  border-radius: 6px;
+
+  background: var(--pink);
+
+  color: #68474b;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+}
+
+
+
+.add-btn:hover {
+
+  background: var(--rose);
+
+  color: white;
+
+}
+
+
+
+.sale {
+
+  position: absolute;
+
+  top: 23px;
+
+  left: 23px;
+
+  background: var(--yellow);
+
+  padding: 6px 10px;
+
+  font-size: 10px;
+
+  border-radius: 20px;
+
+  z-index: 2;
+
+  font-weight: 700;
+
+}
+
+
+
+/* ABOUT */
+
+
+
+.about {
+
+  background: #f5eee2;
+
+  padding: 75px 10%;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 55px;
+
+  align-items: center;
+
+}
+
+
+
+.about img {
+
+  width: 100%;
+
+  height: 330px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+
+  box-shadow: -12px 12px 0 var(--pink);
+
+}
+
+
+
+.about h2 {
+
+  font-family: 'Playfair Display', serif;
+
+  font-size: 43px;
+
+  line-height: 1.2;
+
+}
+
+
+
+.about p {
+
+  line-height: 1.9;
+
+  color: #777064;
+
+  margin-top: 20px;
+
+  font-size: 14px;
+
+}
+
+
+
+.handwritten {
+
+  font-family: 'Caveat', cursive;
+
+  font-size: 26px;
+
+  color: var(--rose);
+
+  margin-top: 20px;
+
+}
+
+
+
+/* NEWSLETTER */
+
+
+
+.newsletter {
+
+  text-align: center;
+
+  padding: 80px 20px;
+
+}
+
+
+
+.newsletter h2 {
+
+  font-family: 'Playfair Display', serif;
+
+  font-size: 40px;
+
+}
+
+
+
+.newsletter p {
+
+  color: #888174;
+
+  margin: 14px 0 25px;
+
+}
+
+
+
+.newsletter form {
+
+  display: flex;
+
+  max-width: 420px;
+
+  margin: auto;
+
+  gap: 8px;
+
+}
+
+
+
+.newsletter input {
+
+  flex: 1;
+
+  min-width: 0;
+
+  padding: 14px;
+
+  border: 1px solid #ded3c3;
+
+  border-radius: 7px;
+
+  outline: none;
+
+  background: white;
+
+}
+
+
+
+.newsletter button {
+
+  background: var(--green);
+
+  color: white;
+
+  padding: 14px 18px;
+
+  border-radius: 7px;
+
+}
+
+
+
+/* FOOTER */
+
+
+
+footer {
+
+  background: var(--dark);
+
+  color: #f9f0e3;
+
+  text-align: center;
+
+  padding: 30px;
+
+  font-size: 13px;
+
+}
+
+
+
+footer span {
+
+  color: var(--pink);
+
+}
+
+
+
+/* SEARCH */
+
+
+
+.search {
+
+  width: 100%;
+
+  max-width: 400px;
+
+  display: block;
+
+  margin: 0 auto 25px;
+
+  padding: 13px 18px;
+
+  border: 1px solid #e9dfd0;
+
+  background: white;
+
+  border-radius: 30px;
+
+  outline: none;
+
+}
+
+
+
+/* RESPONSIVE */
+
+
+
+@media(max-width: 900px) {
+
+
+
+
+  .hero {
+
+    grid-template-columns: 1fr;
+
+    text-align: center;
+
+  }
+
+
+
+  .hero p {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+
+
+  .hero-art {
+
+    margin: 30px auto 0;
+
+    max-width: 430px;
+
+    width: 100%;
+
+  }
+
+
+
+  .about {
+
+    grid-template-columns: 1fr;
+
+  }
+
+}
+
+
+
+@media(max-width: 600px) {
+
+  nav {
+
+    padding: 18px 5%;
+
+  }
+
+
+
+  .nav-links {
+
+    display: none;
+
+  }
+
+
+
+  .hero {
+
+    padding: 60px 6%;
+
+  }
+
+
+
+  .hero h1 {
+
+    font-size: 47px;
+
+  }
+
+
+
+  .section {
+
+    padding: 60px 5%;
+
+  }
+
+
+
+
+
+
+
+  .book-cover {
+
+    height: 180px;
+
+  }
+
+
+
+  .book-info h3 {
+
+    font-size: 16px;
+
+  }
+
+
+
+  .section-heading h2,
+
+  .about h2 {
+
+    font-size: 34px;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- NAVIGATION -->
+
+
+
+<nav>
+
+  <a href="#" class="logo">the cozy <span>chapter.</span> 📖</a>
+
+
+
+  <div class="nav-links">
+
+    <a href="#">Home</a>
+
+    <a href="#books">Our Books</a>
+
+    <a href="#about">Our Story</a>
+
+    <a href="#newsletter">Contact</a>
+
+  </div>
+
+
+
+  <button class="cart" onclick="showCart()">
+
+    🛍️ Bag (<span id="cart-count">0</span>)
+
+  </button>
+
+</nav>
+
+
+
+<!-- HERO -->
+
+
+
+<section class="hero">
+
+
+
+  <div>
+
+    <span class="tag">✿ A LITTLE CORNER FOR BIG DREAMERS</span>
+
+
+
+    <h1>
+
+      Life is better with a little <em>plot twist.</em>
+
+    </h1>
+
+
+
+    <p>
+
+      Discover stories that make you laugh, cry, dream
+
+      and fall in love. Your next favourite book is
+
+      waiting to be picked up.
+
+    </p>
+
+
+
+    <a href="#books" class="primary-btn">Explore the bookshelf →</a>
+
+
+
+    <div class="handwritten">psst... your next adventure starts here ♡</div>
+
+  </div>
+
+
+
+  <div class="hero-art">
+
+    <span class="doodle doodle-one">✳</span>
+
+    <span class="doodle doodle-two">♡</span>
+
+    <span class="doodle doodle-three">little joys!</span>
+
+
+
+    <img
+
+      src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=900"
+
+      alt="Beautiful cozy library"
+
+    >
+
+  </div>
+
+
+
+</section>
+
+
+
+<div class="marquee">
+
+  ✿ READ MORE · DREAM BIG · STAY CURIOUS · TURN THE PAGE ✿
+
+</div>
+
+
+
+<!-- BOOK COLLECTION -->
+
+
+
+<section class="section" id="books">
+
+
+
+  <div class="section-heading">
+
+    <small>the bookshelf is calling...</small>
+
+    <h2>Find your next chapter</h2>
+
+    <p>A little something for every kind of reader ♡</p>
+
+  </div>
+
+
+
+  <input
+
+    type="text"
+
+    class="search"
+
+    id="search"
+
+    placeholder="🔍 Find your next favourite book..."
+
+    oninput="filterBooks()"
+
+  >
+
+
+
+  <div class="categories">
+    <button class="category active" onclick="filterCategory('all', this)">All Books</button>
+    <button class="category" onclick="filterCategory('romance', this)">Romance</button>
+    <button class="category" onclick="filterCategory('literary-fiction', this)">Literary Fiction</button>
+    <button class="category" onclick="filterCategory('classics', this)">Classics</button>
+    <button class="category" onclick="filterCategory('fantasy', this)">Fantasy</button>
+    <button class="category" onclick="filterCategory('science-fiction', this)">Science Fiction</button>
+    <button class="category" onclick="filterCategory('mystery-thriller', this)">Mystery &amp; Thriller</button>
+    <button class="category" onclick="filterCategory('horror', this)">Horror</button>
+    <button class="category" onclick="filterCategory('historical-fiction', this)">Historical Fiction</button>
+    <button class="category" onclick="filterCategory('young-adult', this)">Young Adult &amp; Children's</button>
+    <button class="category" onclick="filterCategory('non-fiction', this)">Non-Fiction</button>
+    <button class="category" onclick="filterCategory('poetry-drama', this)">Poetry &amp; Drama</button>
+    <button class="category" onclick="filterCategory('graphic-literature', this)">Graphic Literature</button>
+  </div>
+
+
+
+  <div class="books" id="book-grid"></div>
+
+</section>
+
+
+
+<!-- ABOUT -->
+
+
+
+<section class="about" id="about">
+
+
+
+  <div>
+
+    <img
+
+      src="https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=900"
+
+      alt="Books and reading"
+
+    >
+
+  </div>
+
+
+
+  <div>
+
+    <span class="tag">OUR LITTLE STORY ✿</span>
+
+    <h2>More than books. A whole little universe.</h2>
+
+
+
+    <p>
+
+      We believe books are tiny portals to different worlds.
+
+      Our library brings together timeless classics,
+
+      hidden gems and stories waiting to be discovered.
+
+
+
+      Whether you're a midnight reader, a coffee-and-books
+
+      person or a weekend bookworm, there's a place for you here.
+
+    </p>
+
+
+
+    <div class="handwritten">
+
+      Made with love, paper & a little imagination ♡
+
+    </div>
+
+  </div>
+
+
+
+</section>
+
+
+
+<!-- NEWSLETTER -->
+
+
+
+<section class="newsletter" id="newsletter">
+
+
+
+  <span class="handwritten">a little note from us ✉</span>
+
+
+
+  <h2>Letters from the bookshelf</h2>
+
+
+
+  <p>New arrivals, bookish recommendations and little surprises.</p>
+
+
+
+  <form onsubmit="subscribe(event)">
+
+    <input type="email" id="email" placeholder="Your email address..." required>
+
+    <button type="submit">Join us ♡</button>
+
+  </form>
+
+
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+
+
+<footer>
+
+  <p>the cozy chapter. ♡</p>
+
+  <br>
+
+  <p>Made for book lovers, dreamers & curious minds.</p>
+
+  <br>
+
+  <span>© 2026 The Cozy Chapter · Happy reading! ✿</span>
+
+</footer>
+
+
+
+<script>
+function subscribe(event) {
+  event.preventDefault();
+
+  const email = document.getElementById('email').value;
+  alert('You are on the list! ♡ Happy reading, ' + email);
+
+  event.target.reset();
+}
+
+// Temporary message until the shopping cart is implemented.
+function showCart() {
+  alert('Your book bag is coming soon! We are building it next. ♡');
+}
+</script>
+
+  <script src="./js/books.js"></script>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

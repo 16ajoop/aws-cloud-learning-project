@@ -1,0 +1,15 @@
+.book-cover {
+    position: relative;
+    overflow: hidden;
+}
+
+.book-cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.book-placeholder[hidden] {
+    display: none;
+}

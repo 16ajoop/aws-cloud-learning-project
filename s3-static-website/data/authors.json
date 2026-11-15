@@ -1,0 +1,117 @@
+
+[
+  {
+    "id": "ali-hazelwood",
+    "name": "Ali Hazelwood",
+    "bio": "Ali Hazelwood writes contemporary romance featuring smart, ambitious women, academic settings, and lovable characters. Her stories often explore STEM careers, relationships, and workplace romance.",
+    "genreIds": ["romance"],
+    "notableBooks": [
+      "The Love Hypothesis",
+      "Love on the Brain",
+      "Love, Theoretically",
+      "Bride",
+      "Check & Mate"
+    ]
+  },
+  {
+    "id": "haruki-murakami",
+    "name": "Haruki Murakami",
+    "bio": "Haruki Murakami is a Japanese novelist known for blending ordinary life with surrealism, dreamlike settings, loneliness, memory, and magical realism.",
+    "genreIds": ["literary-fiction", "fantasy", "science-fiction"],
+    "notableBooks": [
+      "Norwegian Wood",
+      "Kafka on the Shore",
+      "1Q84",
+      "The Wind-Up Bird Chronicle",
+      "After Dark"
+    ]
+  },
+  {
+    "id": "ana-huang",
+    "name": "Ana Huang",
+    "bio": "Ana Huang is a contemporary romance author known for emotionally intense relationships, charismatic characters, and interconnected romance series.",
+    "genreIds": ["romance"],
+    "notableBooks": [
+      "Twisted Love",
+      "Twisted Games",
+      "Twisted Hate",
+      "Twisted Lies",
+      "King of Wrath"
+    ]
+  },
+  {
+    "id": "fyodor-dostoevsky",
+    "name": "Fyodor Dostoevsky",
+    "bio": "Fyodor Dostoevsky was a Russian novelist whose influential works explore human psychology, morality, faith, suffering, freedom, and existential questions.",
+    "genreIds": ["classics", "literary-fiction", "non-fiction"],
+    "notableBooks": [
+      "Crime and Punishment",
+      "The Brothers Karamazov",
+      "The Idiot",
+      "Notes from Underground",
+      "Demons"
+    ]
+  },
+  {
+    "id": "albert-camus",
+    "name": "Albert Camus",
+    "bio": "Albert Camus was a French-Algerian writer and philosopher associated with absurdism. His works explore the human condition, meaning, freedom, and the search for purpose.",
+    "genreIds": ["classics", "literary-fiction", "poetry-drama"],
+    "notableBooks": [
+      "The Stranger",
+      "The Plague",
+      "The Myth of Sisyphus",
+      "The Fall",
+      "The Rebel"
+    ]
+  },
+  {
+    "id": "franz-kafka",
+    "name": "Franz Kafka",
+    "bio": "Franz Kafka was a German-speaking Bohemian writer known for unsettling, surreal stories exploring alienation, bureaucracy, anxiety, and the absurdity of human existence.",
+    "genreIds": ["classics", "literary-fiction", "horror"],
+    "notableBooks": [
+      "The Metamorphosis",
+      "The Trial",
+      "The Castle",
+      "In the Penal Colony",
+      "A Hunger Artist"
+    ]
+  },
+  {
+    "id": "emily-henry",
+    "name": "Emily Henry",
+    "bio": "Emily Henry is a contemporary romance and fiction author known for witty dialogue, emotional storytelling, memorable characters, and heartfelt relationships.",
+    "genreIds": ["romance", "literary-fiction"],
+    "notableBooks": [
+      "Beach Read",
+      "People We Meet on Vacation",
+      "Book Lovers",
+      "Happy Place",
+      "Funny Story"
+    ]
+  },
+
+  {
+    "id": "j-r-r-tolkien",
+    "name": "J.R.R. Tolkien",
+    "bio": "English writer and philologist best known for creating Middle-earth and influential works of fantasy.",
+    "genreIds": ["fantasy"],
+    "notableBooks": ["The Hobbit", "The Lord of the Rings"]
+  },
+  {
+    "id": "agatha-christie",
+    "name": "Agatha Christie",
+    "bio": "English crime novelist celebrated for intricate mysteries and iconic detectives.",
+    "genreIds": ["mystery-thriller", "classics"],
+    "notableBooks": ["And Then There Were None", "Murder on the Orient Express"]
+  },
+  {
+    "id": "james-clear",
+    "name": "James Clear",
+    "bio": "Author and speaker known for writing about habits, decision-making and continuous improvement.",
+    "genreIds": ["non-fiction"],
+    "notableBooks": ["Atomic Habits"]
+  }
+
+]
