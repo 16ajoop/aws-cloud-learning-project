@@ -13,8 +13,8 @@ The Cozy Chapter provides a book browsing experience with a catalogue of books, 
 ### Homepage
 ![The Cozy Chapter Homepage](screenshots/live_website.png)
 
-### Book Catalogue
-![Book Catalogue](screenshots/live_website1.png)
+### Website Functionality
+![Website Functionality](screenshots/website_functionality.png)
 
 ### S3 Bucket Objects
 ![S3 Bucket Objects](screenshots/s3_bucket_objects.png)
@@ -22,8 +22,7 @@ The Cozy Chapter provides a book browsing experience with a catalogue of books, 
 ### Static Website Hosting Configuration
 ![S3 Static Website Hosting](screenshots/static_website_hosting.png)
 
-### Website Functionality
-![Website Functionality](screenshots/website_functionality.png)
+
 
 ## Architecture
 
