@@ -1,25 +1,31 @@
 # ☁️ AWS Cloud Learning Project
 
-A hands-on journey into Amazon Web Services (AWS) through practical cloud projects, experiments, and deployments.
+A hands-on journey into Amazon Web Services (AWS), focused on cloud computing, infrastructure, networking, storage, security, and application deployment.
 
-This repository documents my learning experience with AWS by building real-world applications and exploring different cloud services.
+This repository documents my practical learning through AWS services, hands-on experiments, and cloud deployment projects.
 
 ##  Learning Objectives
 
-- Understand cloud computing fundamentals.
-- Gain practical experience with AWS services.
-- Learn cloud storage, compute, networking, and security.
-- Deploy and manage applications on AWS.
-- Understand cloud architecture and deployment workflows.
+- Understand cloud computing fundamentals and AWS architecture.
+- Gain practical experience with core AWS services.
+- Explore cloud storage, compute, networking, and security.
+- Deploy and manage applications using AWS.
+- Develop practical cloud infrastructure and troubleshooting skills.
 
-##  AWS Services & Projects
+##  AWS Services & Learning Progress
 
-| AWS Service | Project | Status |
+| AWS Service | Hands-on Learning | Status |
 |---|---|---|
+| AWS IAM | Identity and Access Management | Completed |
 | Amazon S3 | Static Website Hosting – The Cozy Chapter | Completed |
-| Amazon EC2 | Virtual Server Deployment | Planned |
-| AWS IAM | Identity and Access Management | Planned |
-| Amazon CloudFront | Content Delivery Network | Planned |
+| Amazon EC2 | Virtual Server Setup and Web Application Deployment | Completed |
+| Amazon EBS | Block Storage, Mounting and Data Persistence | Completed |
+| Amazon VPC | Virtual Private Cloud and Networking | In Progress |
+| AWS Budgets | Cost Monitoring and Budget Alerts | Completed |
+| Amazon DynamoDB | NoSQL Database | Planned |
+| AWS Lambda | Serverless Computing | Planned |
+| Amazon Bedrock | Generative AI and Foundation Models | Planned |
+| Amazon RDS | Relational Database Service | Planned |
 
 ## 📂 Repository Structure
 
@@ -27,47 +33,85 @@ This repository documents my learning experience with AWS by building real-world
 aws-cloud-learning-project/
 │
 ├── README.md
+│
 ├── s3-static-website/
-├── ec2/
-├── iam/
-└── cloudfront/
+│   ├── assets/
+│   ├── css/
+│   ├── data/
+│   ├── js/
+│   ├── screenshots/
+│   └── index.html
+│
+└── aws-learning/
+    ├── 01-IAM/
+    ├── 02-EC2/
+    ├── 03-EBS/
+    ├── 04-VPC/
+    ├── 05-AWS-Budgets/
+    ├── 06-DynamoDB/
+    ├── 07-Lambda/
+    ├── 08-Bedrock/
+    └── 09-RDS/
 ```
 
-##  Projects
+##  Projects & Practical Exercises
 
 ### 1. Amazon S3 – Static Website Hosting
 
 **Project: The Cozy Chapter**
 
-- Built a bookstore website using HTML, CSS, and JavaScript.
+- Developed a bookstore website using HTML, CSS, and JavaScript.
 - Created and configured an Amazon S3 bucket.
 - Enabled static website hosting.
-- Uploaded and organized website files.
-- Configured bucket permissions for public website access.
-- Deployed and tested the live website.
+- Uploaded and organized website assets.
+- Configured bucket permissions for public access.
+- Deployed and tested the website.
 
-[Explore S3 Static Website Project](./s3-static-website/)
+### 2. Amazon EC2 – Virtual Server Deployment
 
-### 2. Amazon EC2 – Coming Soon
+- Launched an Amazon Linux 2023 EC2 instance.
+- Configured instance security groups and SSH access.
+- Connected to the instance using SSH.
+- Installed and configured Apache HTTP Server.
+- Deployed and tested a web page hosted on EC2.
 
-Explore virtual servers, instance configuration, and application deployment.
+### 3. Amazon EBS – Elastic Block Storage
 
-### 3. AWS IAM – Coming Soon
+- Created and attached an additional EBS volume.
+- Formatted the volume using the ext4 filesystem.
+- Mounted the volume on an EC2 instance.
+- Practiced file storage and data persistence.
+- Tested volume detachment and reattachment.
+- Configured automatic mounting using `/etc/fstab`.
 
-Learn users, groups, roles, and permissions.
+### 4. AWS IAM – Identity and Access Management
 
-### 4. Amazon CloudFront – Coming Soon
+- Explored IAM users and access management concepts.
+- Created an IAM user for practical learning.
+- Studied identity-based access and permissions.
 
-Explore content delivery, caching, and HTTPS.
+### 5. AWS Budgets – Cost Monitoring
+
+- Created a monthly AWS cost budget.
+- Configured actual and forecasted cost alerts.
+- Explored AWS cost monitoring and notifications.
 
 ##  Learning Approach
 
-Each project includes its objective, AWS services used, implementation steps, architecture, challenges, and lessons learned.
+Each hands-on exercise focuses on:
+
+- Service fundamentals and core concepts.
+- AWS Console configuration.
+- Practical implementation.
+- Linux commands and troubleshooting where applicable.
+- Screenshots and documentation.
+- Resource cleanup and cost awareness.
 
 ##  Goal
 
-Build practical AWS skills by implementing and documenting cloud projects rather than learning services only through theory.
+Build practical cloud computing skills by implementing, testing, and documenting AWS services and projects.
 
 ---
+
 
 **Learning AWS ☁️**
